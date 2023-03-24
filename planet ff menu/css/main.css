@@ -1,0 +1,96 @@
+.header{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 4px solid rgba(11, 4, 95, 0.61);
+    background: rgba(246, 238, 252, 0.493);
+}
+.planet:hover{
+    rotate: 359deg;
+    scale: 0.8;
+    transition:2s
+
+}
+.planet{
+    text-shadow: 3px 2px 2px rgba(216, 177, 241, 0.726);
+    color: rgb(0, 17, 36);
+}
+.fs{
+    color: rgb(0, 255, 200);
+    text-shadow: 2px 1px 1px rgba(0, 128, 187, 0.63);
+    
+
+}
+.fs:hover{
+    scale: 1.3;
+    transition:0.5s;
+    translate: 15% 10%;
+}
+.navm{
+    background: #78d3f7;
+    padding: 1px 4px;
+    text-align: left;
+}
+.list{
+    display: inline-block; 
+    margin: 2px;
+}
+#a:hover{
+    color: rgb(197, 115, 245);
+}
+#sub-t{
+    text-align: center;
+    margin: 0 auto;
+}
+.item{
+
+    height: auto;
+    margin: 5px;
+    padding: 1%;
+    text-align: left;
+    text-justify: center;
+    width: 20%;
+    border-radius: 4px;
+    background-color: rgb(244, 229, 252);
+    box-shadow: 3px 5px 2px rgba(11, 4, 95, 0.61);
+}
+.item:hover{
+    scale: 1.2;
+    transition:0.3s;
+
+}
+.item-text{
+    text-align: center;
+
+
+}
+.main-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 480px max-content;
+    margin: 0 auto;
+    padding: 1rem;
+    width: auto;
+}
+.sub-content{
+    text-align: justify;
+    padding: 1px;
+}
+.sec-contacto{
+    height: 80%;
+    display: block;
+}
+
+
+a, li, ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+body, footer{
+    margin:0 auto;
+    padding: 0px 1px 1px 0px;
+    background: linear-gradient(20deg, #FFFFFF 10%, #011a47);
+    
+}
